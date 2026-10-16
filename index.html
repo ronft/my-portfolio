@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Finance Portfolio</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#0e1117;color:#f4f4f5;font-family:Arial,sans-serif;line-height:1.7}
+header{background:#171c26;padding:24px 8%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+header strong{font-size:21px}
+nav a{color:#d1d5db;margin-left:20px;text-decoration:none}
+nav a:hover{color:#7dd3fc}
+main{max-width:1000px;margin:auto;padding:0 24px}
+.hero{padding:95px 0 70px}
+h1{font-size:clamp(34px,6vw,54px);line-height:1.15;margin:0 0 22px}
+h2{font-size:27px;margin:0 0 22px}
+p{color:#cbd5e1}
+.hero p{font-size:19px;max-width:780px}
+section{padding:35px 0}
+.tags{display:flex;gap:12px;flex-wrap:wrap}
+.tags span{padding:10px 16px;background:#1e293b;border:1px solid #334155;border-radius:8px}
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.card{background:#171c26;border:1px solid #334155;border-radius:12px;padding:24px}
+.card h3{margin-top:0}
+.card a{color:#7dd3fc}
+footer{text-align:center;border-top:1px solid #334155;padding:25px;color:#94a3b8;margin-top:50px}
+@media(max-width:500px){nav a{margin-left:0;margin-right:14px}.hero{padding-top:60px}}
+</style>
+</head>
+<body>
+<header>
+<strong>Finance Portfolio</strong>
+<nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a></nav>
+</header>
+<main>
+<section class="hero" id="about">
+<h1>Finance & Financial Markets</h1>
+<p>I'm a Finance student at Rutgers University with experience in corporate finance, futures trading, and financial analysis, passionate about applying analytical skills to investment and trading opportunities.</p>
+</section>
+<section id="skills">
+<h2>Skills</h2>
+<div class="tags">
+<span>Financial Modeling</span><span>Corporate Finance</span><span>Futures Trading</span><span>Risk Management</span><span>Microsoft Excel</span><span>SQL</span><span>Financial Analysis</span><span>Market Research</span>
+</div>
+</section>
+<section id="projects">
+<h2>Projects</h2>
+<div class="projects">
+<article class="card"><h3>Futures Trading & Risk Management</h3><p>Evaluated futures trading strategies with an emphasis on market analysis, risk management, and performance measurement.</p><a href="https://www.cmegroup.com/education.html" target="_blank" rel="noopener noreferrer">Futures market reference ↗</a></article>
+<article class="card"><h3>Corporate Finance Analysis</h3><p>Analyzed revenue trends, product-level financial performance, and profitability during a corporate finance internship.</p><a href="https://www.chobani.com/" target="_blank" rel="noopener noreferrer">Company reference ↗</a></article>
+<article class="card"><h3>SQL Database Analysis</h3><p>Used SQL queries to retrieve, organize, and analyze structured data through academic coursework.</p><a href="https://dev.mysql.com/doc/" target="_blank" rel="noopener noreferrer">SQL documentation ↗</a></article>
+</div>
+</section>
+</main>
+<footer>Personal Portfolio | Rutgers University</footer>
+</body>
+</html>
+  
